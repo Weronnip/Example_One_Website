@@ -1,0 +1,71 @@
+html, 
+body {
+    background-color: lightgray;
+    box-sizing: content-box;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-web {
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.384);
+    bottom: 560px;
+    display: inline;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    max-height: 130px;
+    position: absolute;
+}
+
+.nav li{
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    padding-right: 60px;
+    top: 25px;
+    position: relative;
+}
+
+#HomePage {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+#HomePage:hover {
+    color: rgb(64, 238, 250);
+}
+
+#AboutPage {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+#AboutPage:hover {
+    color: rgb(64, 238, 250);
+}
+
+#ShopPage {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+#ShopPage:hover {
+    color: rgb(64, 238, 250);
+}
+
+#LoginPage {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+#LoginPage:hover {
+    color: rgb(64, 238, 250);
+}
