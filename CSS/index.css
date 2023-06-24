@@ -1,15 +1,29 @@
 html, 
 body {
+    background-attachment: fixed;
     background-color: lightgray;
+    font-family: 'Trebuchet MS', sans-serif;
     box-sizing: content-box;
     list-style-type: none;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: auto;
+    height: auto;
     padding: 0;
     margin: 0;
 }
 
+::-webkit-scrollbar {
+width: 0px;  
+background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+background: #FF0000;
+}
+
 .header-web {
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgb(0, 0, 0);
     bottom: 560px;
     display: inline;
     height: 100%;
@@ -17,7 +31,7 @@ body {
     text-align: center;
     justify-content: space-between;
     max-height: 130px;
-    position: absolute;
+    position: fixed;
 }
 
 .nav li{
@@ -37,7 +51,7 @@ body {
 }
 
 #HomePage:hover {
-    color: rgb(64, 238, 250);
+    color: rgb(149, 31, 228);
 }
 
 #AboutPage {
@@ -47,7 +61,7 @@ body {
 }
 
 #AboutPage:hover {
-    color: rgb(64, 238, 250);
+    color: rgb(149, 31, 228);
 }
 
 #ShopPage {
@@ -57,7 +71,7 @@ body {
 }
 
 #ShopPage:hover {
-    color: rgb(64, 238, 250);
+    color: rgb(149, 31, 228);
 }
 
 #LoginPage {
@@ -67,5 +81,36 @@ body {
 }
 
 #LoginPage:hover {
-    color: rgb(64, 238, 250);
+    color: rgb(149, 31, 228);
+}
+
+/* block-content */
+
+.main-content {
+    align-items: center;
+    display: flex;
+    min-width: 300px;
+    justify-content: center;
+    min-height: 500px;
+    height: 0% auto;
+}
+
+.block-top {
+    padding-top: 100px;
+    position: relative;
+}
+
+.block-content {
+    background-color: #fff;
+    width: 1250px;
+    height: 750px;
+}
+
+.title-block {
+    color: rgb(105, 29, 156);
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    padding-top: 25px;
+    margin: 0;
 }

@@ -1,1 +1,1 @@
-Frist example website // **Author**
+Frist example website // **Author: @Weronnip**
